@@ -10,7 +10,21 @@
 			"name": "Localiza pokemon com sucesso",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/pokemon/mudkip",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemon",
+						"mudkip"
+					]
+				}
 			},
 			"response": []
 		},
@@ -18,7 +32,21 @@
 			"name": "Não localiza pokemon (não existe)",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/pokemon/cabra",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemon",
+						"cabra"
+					]
+				}
 			},
 			"response": []
 		},
@@ -26,7 +54,21 @@
 			"name": "Endpoint falho localiza pokemon",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/pokemo/mudkip",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemo",
+						"mudkip"
+					]
+				}
 			},
 			"response": []
 		}
